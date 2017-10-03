@@ -30,7 +30,7 @@ void coeficiente(double x1[n], double y1[n])
 	//determinando os coeficientes a0 e a1
 	
 	a0 = (Sxx*Sy - Sxy*Sx)/(n*Sxx - Sx*Sx);
-	a1 = (n*Sxy*Sy - Sx*Sy)/(n*Sxx - Sx*Sx);
+	a1 = (n*Sxy - Sx*Sy)/(n*Sxx - Sx*Sx);
 	
 	//Imprimindo a1 e a0
 	printf("\na1 = %lf\na0 = %lf\n\n", a1, a0);
